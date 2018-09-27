@@ -6346,4 +6346,16 @@ label.panel-block {
   background-image: url("../images/background.jpg");
   background-size: cover; }
 
+#canvas {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000; }
+
+.z-index-top {
+  position: relative;
+  background: transparent;
+  z-index: 1001; }
+
 /*# sourceMappingURL=index.css.map */
